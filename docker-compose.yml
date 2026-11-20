@@ -1,0 +1,7 @@
+services:
+  firmware-build:
+    image: contiker/contiki-ng:develop
+    working_dir: /workspace/firmware/device
+    volumes:
+      - .:/workspace
+    command: ["make"]

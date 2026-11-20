@@ -1,0 +1,14 @@
+# Contiki-NG separate repository
+/contiki-ng/
+
+# Build outputs
+**/build/
+*.o
+*.d
+*.map
+*.sky
+*.elf
+*.hex
+
+# Editor settings
+.vscode/
